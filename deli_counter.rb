@@ -19,4 +19,5 @@ def take_a_number(katz_deli, string)
     new_line << " You are number 1 in line."
     #binding.pry
   end
+  puts new_line
 end
