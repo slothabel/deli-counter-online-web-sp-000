@@ -14,6 +14,7 @@ def line(deli)
 end
 
 def take_a_number(katz_deli, string)
+ new_line = << string
   if katz_deli.empty?
     puts "Welcome, #{string}. You are number 1 in line."
   end
