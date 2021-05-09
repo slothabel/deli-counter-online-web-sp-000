@@ -13,11 +13,7 @@ def line(deli)
   end
 end
 
-def take_a_number(katz_deli, string)
- new_line = "Welcome, #{string}."
-  if katz_deli.empty?
-    new_line << " You are number 1 in line."
-    #binding.pry
-  end
-  puts new_line
+def take_a_number(deli, name)
+  deli << name
+  puts "Welcome, #{name}. You are number #{deli.length} in line."
 end
