@@ -1,6 +1,5 @@
 # Write your code here.
-require 'pry'
-katz_deli = []
+#katz_deli = []
 
 def line(deli)
   if deli.empty?
@@ -18,6 +17,6 @@ def take_a_number(katz_deli, string)
  new_line = "Welcome, #{string}."
   if katz_deli.empty?
     new_line << " You are number 1 in line."
-    binding.pry
+    #binding.pry
   end
 end
