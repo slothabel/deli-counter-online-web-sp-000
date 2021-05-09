@@ -25,5 +25,4 @@ else
    serving = deli.shift
    puts "Currently serving #{serving}."
   end
-
 end
