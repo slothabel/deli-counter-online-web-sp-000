@@ -15,6 +15,6 @@ end
 
 def take_a_number(katz_deli, string)
   if katz_deli.empty?
-    puts "Welcome, #{katz_deli}. You are number #{string} in line."
+    puts "Welcome, #{string}. You are number #{string.count} in line."
   end
 end
