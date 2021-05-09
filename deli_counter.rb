@@ -14,5 +14,7 @@ def line(deli)
 end
 
 def take_a_number(katz_deli, string)
-  katz_deli.map.with_index(1){|name, index| puts "Welcome, #{name}. You are number #{index} in line."}
+  if katz_deli.empty?
+    puts "Welcome, #{name}. You are number #{string} in line."
+  end
 end
